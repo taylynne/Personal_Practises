@@ -1,0 +1,314 @@
+Questions,Summary,Link,Number_of_Answers
+Python unittest does not run tests,"I made a small project called demo, with a single test in it
+
+import unittest
+class Test(unittest.TestCase):
+    def testName1(self):
+        self.assertEqual(5+9, 14)
+if __name__ == ""__main__"":
+   ...",https://stackoverflow.com/questions/52013612/python-unittest-does-not-run-tests,"
+0 answers
+            "
+Python/Beautifulsoup - Missing first row of table,"Could someone please help me understand why the output for the below code is missing the first row of the table? I'm new to python, and not for lack of trying, I haven't been able to troubleshoot this ...",https://stackoverflow.com/questions/52013610/python-beautifulsoup-missing-first-row-of-table,"
+0 answers
+            "
+Python Telegram bot adding handlers from list,"I'm having trouble adding command handlers on the run, here's an example:
+
+updater = Updater(token)
+
+items = [
+    ('a': 1),
+    ('b': 2),
+    ('c': 3)
+]
+
+for i in range(len(items)):
+    def ...",https://stackoverflow.com/questions/52013582/python-telegram-bot-adding-handlers-from-list,"
+0 answers
+            "
+Ubuntu Supervisord cannot run Python script with Sqite,"I am using supervisor to make a process run forever, and the supervisor works fine with normal python script.
+
+Then I have a python script that talks to sqlite database and it runs fine on it own, but ...",https://stackoverflow.com/questions/52013579/ubuntu-supervisord-cannot-run-python-script-with-sqite,"
+0 answers
+            "
+Python: Crop out area from image along borders,"What functions (and how should I use them) should I use to crop out the center part of this image? I want to take just the less-dense parts, not the dense borders.
+
+Thanks!
+
+In the end, I want to ...",https://stackoverflow.com/questions/52013574/python-crop-out-area-from-image-along-borders,"
+0 answers
+            "
+"How MRO, super works in python","Can someone help me understand how MRO works in python?
+Suppose I have four classes - Character, Thief, Agile, Sneaky. Character is the super class to Thief, Agile and Sneaky are siblings. Please see ...",https://stackoverflow.com/questions/52013570/how-mro-super-works-in-python,"
+0 answers
+            "
+Kivy: Can I freely change the position of text within a button? and add another text in the button?,"t3.py
+
+#-*- coding: utf-8 -*-
+__version__ = ""1.0""
+
+import kivy
+import os
+kivy.require('1.10.0')
+from kivy.app import App
+from kivy.lang import Builder
+from kivy.uix.button import Button
+from kivy.uix....",https://stackoverflow.com/questions/52013569/kivy-can-i-freely-change-the-position-of-text-within-a-button-and-add-another,"
+0 answers
+            "
+Python Pygame enemy follows the player,"I am creating a simple game to help me learn more about python and game development. I would like for the enemy in the game to follow the player wherever he goes on the screen which is 1280, 800.
+
+#...",https://stackoverflow.com/questions/52013564/python-pygame-enemy-follows-the-player,"
+0 answers
+            "
+Why the stem of word “got ” is still “got” instead of “get”?,"from stemming.porter2 import stem
+
+documents = ['got',""get""]
+
+documents = [[stem(word) for word in sentence.split("" "")] for sentence in documents]
+print(documents)
+The result is :
+
+[['got'], ['get']]...",https://stackoverflow.com/questions/52013552/why-the-stem-of-word-got-is-still-got-instead-of-get,"
+0 answers
+            "
+Python - Removing paragraph breaks in input,"So I have written a program (however ugly) that counts the number of words and the instances of each unique word in a given input.
+
+My problem is that I want to use it for song lyrics, but most lyric ...",https://stackoverflow.com/questions/52013541/python-removing-paragraph-breaks-in-input,"
+0 answers
+            "
+"no output in Jupyter Notebook, using PyCharm","I have a recurring problem using PyCharm for Jupyter Notebook files.
+Many times I try something simple, for example:
+
+ln[110]: 587*7
+ln[]:
+I press shift + enter, but there is no output displayed. ...",https://stackoverflow.com/questions/52013526/no-output-in-jupyter-notebook-using-pycharm,"
+0 answers
+            "
+How to urljoin a list of url and scrap?,"I have the following scrapy script:  
+
+class DummySpider(scrapy.Spider):
+        name = 'dummy'
+        allowed_domains = ['dummy.com']
+        start_urls = ['https://www.dummy.com/all-categories/...",https://stackoverflow.com/questions/52013502/how-to-urljoin-a-list-of-url-and-scrap,"
+0 answers
+            "
+Adding to a counter on each frame for a quiz in python tkinter?,"So I've simplified my code down to the basics to try and get this to work. The mainpage, which you press 'play' on takes you to the page 'MathsQ1', this is the first question. The page has a question ...",https://stackoverflow.com/questions/52013486/adding-to-a-counter-on-each-frame-for-a-quiz-in-python-tkinter,"
+0 answers
+            "
+What is the purpose of the header element 'x-instagram-ajax' in API calls via Python to Instagram?,"On the instagram login page, if one inspects the element of the POST call for the url 'https://www.instagram.com/accounts/web_create_ajax/', it lists the following as headers:
+
+Host: www.instagram.com
+...",https://stackoverflow.com/questions/52013465/what-is-the-purpose-of-the-header-element-x-instagram-ajax-in-api-calls-via-py,"
+0 answers
+            "
+Python / Selenium / Firefox can't find element by XPath,"Windows 10Home x64/
+Python 3.7.0 win64/
+Selenium 3.14.0/
+Geckodriver 3.14.0/
+Firefox 61.0.2
+
+Im trying to click on the login button, even though I have copyed and pasted the full Xpath I am not able ...",https://stackoverflow.com/questions/52013464/python-selenium-firefox-cant-find-element-by-xpath,"
+1 answer
+            "
+Why is $PATH in remote deployment path different from $PATH in remote system?,"I'm currently working on Pycharm with remote python Interpreter(miniconda3/bin/python).
+
+So when I type echo $PATH in remote server, it prints 
+/home/woosung/bin:/home/woosung/.local/bin:/home/woosung/...",https://stackoverflow.com/questions/52013452/why-is-path-in-remote-deployment-path-different-from-path-in-remote-system,"
+0 answers
+            "
+How to plot loss vs epochs graph using .log file in python,"I have a training.log file which contain
+
+epoch,acc,loss,val_acc,val_loss
+
+0,0.3362708558291825,1.7554432798434318,0.32878239064221265,1.9248546749544395
+
+1,0.44641053328276503,1.4846536312246443,0....",https://stackoverflow.com/questions/52013446/how-to-plot-loss-vs-epochs-graph-using-log-file-in-python,"
+0 answers
+            "
+AttributeError: 'tuple' object has no attribute 'tx' - python [on hold],"I need to iterate through a for each loop and retrieve values as follows.
+
+for flow in mon.getAttr():
+   flow_arr = []
+   flow_arr.extend(flow.tx)
+   flow_arr.extend(flow.rx)
+When running the script ...",https://stackoverflow.com/questions/52013441/attributeerror-tuple-object-has-no-attribute-tx-python,"
+0 answers
+            "
+Sentiment analysis of sets of documents using pretrained embeddings,"I have seen many tutorials and papers doing document text classification using CNNs combined with pretrained word2vec (or FastText) embeddings.
+
+However, I have a classification task in which I need ...",https://stackoverflow.com/questions/52013407/sentiment-analysis-of-sets-of-documents-using-pretrained-embeddings,"
+0 answers
+            "
+IPv4 and IPv6 detector in Python,"There is an excellently simple website whatip.me which will detect the IPv4 and IPv6 addresses of the visitor to the website. 
+
+How can I simply reproduce this functionality in Python? I see various ...",https://stackoverflow.com/questions/52013391/ipv4-and-ipv6-detector-in-python,"
+0 answers
+            "
+How to profile the python worker memory of PySpark?,"I have an application that use PySpark to extract features, But the application always killed with error.
+
+Container killed by YARN for exceeding memory limits. 14.4 GB of 14 GB physical memory used.
+...",https://stackoverflow.com/questions/52013366/how-to-profile-the-python-worker-memory-of-pyspark,"
+0 answers
+            "
+Is modifying sys.path the best way to handle a project specific module,"I'm (re)writing in python part of the testing tools supporting a large multi-language project, which are stored along side the project itself. At some point it becomes obvious that some code can be ...",https://stackoverflow.com/questions/52013365/is-modifying-sys-path-the-best-way-to-handle-a-project-specific-module,"
+1 answer
+            "
+How can I add raw HTML/JavaScript to a Dash application?,"I'd like to have a tacky Matrix-style background in my Dash application. How can I add code for that, for example, what you'd find here?",https://stackoverflow.com/questions/52013320/how-can-i-add-raw-html-javascript-to-a-dash-application,"
+0 answers
+            "
+using or operators with and without parentheses [duplicate],"I'm fairly new to python/programming in general and I would like to know the affect (if any) that parentheses have when using the 'or' operator.
+
+For example what's the difference between this:
+
+if (x ...",https://stackoverflow.com/questions/52013285/using-or-operators-with-and-without-parentheses,"
+0 answers
+            "
+Squaring numbers in a loop,"I have this python problem:
+  Write a program that asks the user for a limit, and then prints out
+  the sequence of square numbers that are less than or equal to the
+  limit provided.
+  
+  Max: 10
+  
+...",https://stackoverflow.com/questions/52013266/squaring-numbers-in-a-loop,"
+5 answers
+            "
+Manipulating Python Magic Methods,I have more of a background with data science libraries or calling methods and attributes from classes. I am experimenting with manipulating magic methods. I am having a difficult time getting bool ...,https://stackoverflow.com/questions/52013260/manipulating-python-magic-methods,"
+1 answer
+            "
+SQL syntax error on table name,"I've just finished a segment about stopping the spam in a forums database, and now it's time to clean them up.
+
+The goal is to use an update statement to update the database records and delete the ...",https://stackoverflow.com/questions/52013248/sql-syntax-error-on-table-name,"
+1 answer
+            "
+Pyspark Dataframe select all columns with alias on few columns,"I have a dataframe which has a lot of columns (more than 50 columns) and want to select all the columns as they are with few column names renamed by maintaining the below order. I tried the following ,...",https://stackoverflow.com/questions/52013232/pyspark-dataframe-select-all-columns-with-alias-on-few-columns,"
+0 answers
+            "
+include_package_data=True does not work,"I use include_package_data=True with setuptools.
+
+Despite I have include_package_data=True when I run python setup.py install my *.xml and *.ttl (and other) files are not installed.
+
+What is my error? ...",https://stackoverflow.com/questions/52013228/include-package-data-true-does-not-work,"
+1 answer
+            "
+How to remove the floating number ending in python? [duplicate],"A beginner python programming learner here.
+
+I'm making a very simple two number calculator in python. Although it runs perfectly, I can't fix the issue with floating numbers ending with "".0"". I want ...",https://stackoverflow.com/questions/52013220/how-to-remove-the-floating-number-ending-in-python,"
+1 answer
+            "
+Plotting white over part of a 2d color mesh in matplotlib,"I am using a 2d colormesh in matplotlib
+
+X, Y = np.meshgrid(xs2, ys2)
+fig = plt.figure()
+plt.pcolormesh(Y, X, Z)
+plt.axis('scaled')
+cbar = plt.colorbar()
+cbar.ax.set_ylabel(colorlab)
+plt.xlabel(xlab)
+...",https://stackoverflow.com/questions/52013136/plotting-white-over-part-of-a-2d-color-mesh-in-matplotlib,"
+0 answers
+            "
+getting a strange error when installing tensor flow,"Python version is 3.6.5 (so up to date I think)
+pip is version 18.0 (for sure up to date cause I spent 30 minutes doing it)
+
+error is:
+
+Traceback (most recent call last):
+File ""c:\program files (x86)\...",https://stackoverflow.com/questions/52013096/getting-a-strange-error-when-installing-tensor-flow,"
+1 answer
+            "
+Sympy and matrix differential ODE,"How can I use Sympy to solve a matrix differential equation?
+
+I have an equation of the form y'(t) = A*y(t) + B, where A is a 3x3 matrix, y(t) is a 1x3 vector, and B is a 1x3 vector.
+
+More ...",https://stackoverflow.com/questions/52013084/sympy-and-matrix-differential-ode,"
+1 answer
+            "
+Cannot understand why IDLE gui is not returning the values that the author is saying it should return,"I am reading the book Learning Python and the author provides these two snippets of code, he then runs ""abc"" like so permute1(""abc"") and this returns all the permutations of abc, when I do it in IDLE. ...",https://stackoverflow.com/questions/52013020/cannot-understand-why-idle-gui-is-not-returning-the-values-that-the-author-is-sa,"
+1 answer
+            "
+How to retrieve javascript variable in HTML script using Python Regex?,"<script>
+    function foo() {
+        var bar = 'thisisvalue';
+    }   
+</script>
+Hi all, I have this function in script tag and I want to get the value of var bar by using Python regular ...",https://stackoverflow.com/questions/52012963/how-to-retrieve-javascript-variable-in-html-script-using-python-regex,"
+2 answers
+            "
+Using WSL directing jupyter notebook to python environment,"I have WSL. My Linux only python package [psi4] is installed in its own env and all modules run fine. Same for a package that uses it[psi4numpy]. However if I launch jupyter notebook, the notebook ...",https://stackoverflow.com/questions/52012933/using-wsl-directing-jupyter-notebook-to-python-environment,"
+0 answers
+            "
+how to refine jq output,"I have a json file. A simple example looks like:
+
+[
+{
+  ""host"": ""a.com"",
+  ""ip"": ""1.2.2.3"",
+  ""port"": 8,
+  ""name"":""xyz""
+},
+{
+  ""host"": ""b.com"",
+  ""ip"": ""2.5.0.4"",
+  ""port"": 3,
+  ""name"":""xyz""
+
+},
+{
+  ""...",https://stackoverflow.com/questions/52012899/how-to-refine-jq-output,"
+2 answers
+            "
+Plot csv file with min/max/avg using python,"I have a csv file with measuring points every 100 seconds.
+5 different measurements have been made.
+I am looking for a simple solution how to create a line plot with the average value for each ...",https://stackoverflow.com/questions/52012897/plot-csv-file-with-min-max-avg-using-python,"
+1 answer
+            "
+How to avoid starvation in a priority queue,"I am trying to create a queue that avoids having elements in the queue for too long. I am using a linked list. The way I want to implement it is that if a greater priority is added, the ones that are ...",https://stackoverflow.com/questions/52012886/how-to-avoid-starvation-in-a-priority-queue,"
+0 answers
+            "
+Python Blocking Stack Multithreading,"I am learning multithreading in python, what I am trying to achieve is a stack class that append(v) wait until size is not full, and a pop() wait until stack is not empty. My implementation is as ...",https://stackoverflow.com/questions/52012869/python-blocking-stack-multithreading,"
+1 answer
+            "
+"Socket errors, a mixture of un-reusable socket ports, and permission denials","I originally had the error:
+OSError: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted
+
+def handler(conn, addr):
+
+    print(""Connection from: ...",https://stackoverflow.com/questions/52012862/socket-errors-a-mixture-of-un-reusable-socket-ports-and-permission-denials,"
+0 answers
+            "
+Can't get Python3 numpy to see BLAS/LAPACK,"I'm running Linaro Debian Stretch on a Tinkerboard and I can't seem to be able to get numpy on Python3 to see any installed BLAS/LAPACK resources.
+
+Running np.__config__.show() under python3 gives NOT ...",https://stackoverflow.com/questions/52012800/cant-get-python3-numpy-to-see-blas-lapack,"
+0 answers
+            "
+"Python3,dictionary from csv file to count frequency of words",I am trying to write a function that reads a csv file of students volunteers with different degrees.The aim of the function is to create a dictionary where keys are the degrees and the values are the ...,https://stackoverflow.com/questions/52012798/python3-dictionary-from-csv-file-to-count-frequency-of-words,"
+1 answer
+            "
+Variable when called outside of an on_message function is not able to be referenced inside the function,"I am trying to create a code called ""saynum"" with a parameter of amount(which is a natural number.) The way the command is supposed to work is it counts the number of messages since you ran the ...",https://stackoverflow.com/questions/52012793/variable-when-called-outside-of-an-on-message-function-is-not-able-to-be-referen,"
+1 answer
+            "
+IOError: [Errno 2] No such file or directory: 'A.json',"could you please let me know how to fix this error, I'm try to run a python code, but when I run the code it gave the about error. I don't have a lot coding experiences and I really need to fix this.
+...",https://stackoverflow.com/questions/52012754/ioerror-errno-2-no-such-file-or-directory-a-json,"
+1 answer
+            "
+python looping through elements of a list with While Loop using Boolean Expression,Guys I am trying to realise given input should loop through my float list named enerji and print out the first element if it is less than it and 1 before element of it. (edit y=82 in my case it is ...,https://stackoverflow.com/questions/52012746/python-looping-through-elements-of-a-list-with-while-loop-using-boolean-expressi,"
+1 answer
+            "
+SSHTunnelForwarder - “IP is not a string (NoneType)”,"I am attempting to use SSHTunnelForwarder. I receive an error ""IP is not a string (NoneType)"". If I understand correctly, that means the host variable I'm passing is of type NoneType and needs to be ...",https://stackoverflow.com/questions/52012729/sshtunnelforwarder-ip-is-not-a-string-nonetype,"
+1 answer
+            "
+Cannot install keras-pandas on Ubuntu due to error message,"I am able to download Keras through pip easily, but it didn't come with keras-pandas and when I run pip install -U keras-pandas I get the following error message:
+
+Complete output from command python ...",https://stackoverflow.com/questions/52012667/cannot-install-keras-pandas-on-ubuntu-due-to-error-message,"
+0 answers
+            "
+Logistic Regression different results with R and Python?,"I used a logistic regression approach in both programs, and was wondering why I am getting different results, especially with the coefficients. The outcome, Infection, is (1, 0) and Flushed is a ...",https://stackoverflow.com/questions/52012636/logistic-regression-different-results-with-r-and-python,"
+1 answer
+            "
+How to store None as JSON 'null' rather than SQL NULL?,"I'm using contrib.postgres.fields.JSONField to store some JSON data with Django 1.11.
+
+Contrary to the convention described in this answer, I'd like to store None as JSON. However, Django by default ...",https://stackoverflow.com/questions/52012623/how-to-store-none-as-json-null-rather-than-sql-null,"
+0 answers
+            "

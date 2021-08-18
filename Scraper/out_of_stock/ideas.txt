@@ -1,0 +1,4 @@
+simple calculators:
+
+find area of x with input information
+calculate the tax on something 

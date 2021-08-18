@@ -1,0 +1,19 @@
+@@@  @  @@@@@@  @@      @@      @@@@@@
+@@@  @  @@@     @@      @@      @@  @@
+@@@@@@  @@@@@   @@      @@      @@  @@
+@@@  @  @@@     @@@@@@  @@@@@@  @@  @@
+@@@  @  @@@@@@  @@@@@@  @@@@@@  @@@@@@
+
+This is a simple file mover, so don't
+try anything to complicated. . . . . 
+Anyway!  Let's move some files, son!
+
+First, we'll ask where you want to move
+files from and then two.  We'll need 
+the full directory for both locations.
+
+And then, the next thing we'll need is
+the file type. Unfortunately, at this 
+time, we can only move one file type at 
+a time. Sorry, limitations based on our 
+workers. ^ u ^;

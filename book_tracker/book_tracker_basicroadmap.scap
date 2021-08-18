@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<ScappleDocument ID="A424C4F5-1147-4BF1-BD4B-0C8C8FAD71E8" Version="1.1">
+   <Notes>
+      <Note Width="156.25" FontSize="12" ID="0" Position="520.3,7.0">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="5" Style="Rounded">0.666667 0.0 0.0</Border>
+         </Appearance>
+         <Formatting>
+            <FormatRange Bold="Yes">0,12</FormatRange>
+            <FormatRange Bold="Yes">23,12</FormatRange>
+            <FormatRange Bold="Yes">37,2</FormatRange>
+            <FormatRange Bold="Yes">76,2</FormatRange>
+            <FormatRange Bold="Yes">116,1</FormatRange>
+            <FormatRange Bold="Yes">181,1</FormatRange>
+            <FormatRange Bold="Yes">231,1</FormatRange>
+         </Formatting>
+         <String>Program idea
+
+Listened Book tracker:
+++ Input book &amp; author &amp; date finished
+++ Keep track of how many &amp; other stats
++ Scrape data about the books (for what end? genre stats again?)
++ Generate an image of all book covers (to share)
++ Create a UI for this program to make it more “userfriendly”
+</String>
+         <ConnectedNoteIDs>1, 5</ConnectedNoteIDs>
+      </Note>
+      <Note Width="156.25" FontSize="12" ID="1" Position="184.4,76.6">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="5" Style="Rounded"/>
+         </Appearance>
+         <String>Simple user input information:
+
+Ask for Book Title 
+Is it a book in a series?
+If so what number?
+What is the Author?
+When did you finish it (allow this to be skipped?
+
+Repeat information back with appropriate formatting (i.e. Capitalize Author name)</String>
+         <ConnectedNoteIDs>0, 2-3</ConnectedNoteIDs>
+      </Note>
+      <Note Width="156.25" FontSize="12" ID="2" Position="726.6,282.0">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="2" Style="Rounded"/>
+         </Appearance>
+         <Formatting>
+            <FormatRange Bold="Yes">128,1</FormatRange>
+            <FormatRange Bold="Yes">137,1</FormatRange>
+         </Formatting>
+         <String>Using this information, scrape data for the book (GoodReads? Audible? Find a site for books with an API?)
+
+Create charts/track:
++ Genres
++ Length? </String>
+         <ConnectedNoteIDs>1, 4</ConnectedNoteIDs>
+      </Note>
+      <Note Width="157.812" FontSize="12" ID="3" Position="90.6,346.9">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="3" Style="Rounded"/>
+         </Appearance>
+         <Formatting>
+            <FormatRange Bold="Yes">85,1</FormatRange>
+            <FormatRange Bold="Yes">96,1</FormatRange>
+            <FormatRange Bold="Yes">108,1</FormatRange>
+            <FormatRange Bold="Yes">129,1</FormatRange>
+            <FormatRange Bold="Yes">147,1</FormatRange>
+         </Formatting>
+         <String>Using this data:
+
+Create charts to show how many books have been read/listened to in
+- the year
+- the month
+- YTD?
+
+Other stats?
++ Repeat Authors?
++ Narrators? (if listened to)</String>
+         <ConnectedNoteIDs>1</ConnectedNoteIDs>
+      </Note>
+      <Note Width="156.25" FontSize="12" ID="4" Position="512.5,427.3">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="2" Style="Rounded"/>
+         </Appearance>
+         <String>Collect book cover images to display and potentially compile to one large image </String>
+         <ConnectedNoteIDs>2</ConnectedNoteIDs>
+      </Note>
+      <Note Width="156.25" FontSize="12" ID="5" Position="832.0,44.5">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="1" Style="Rounded"/>
+         </Appearance>
+         <Formatting>
+            <FormatRange Italic="Yes">0,123</FormatRange>
+         </Formatting>
+         <String>Create a UI for this so I can easily share it with audible subreddit — tho could share without this will reach more people.</String>
+         <ConnectedNoteIDs>0</ConnectedNoteIDs>
+      </Note>
+   </Notes>
+   <BackgroundShapes/>
+   <NoteStyles>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Pink Bubble" ID="E1C4F6BD-8BD0-4EE3-991B-E81D397E5295" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.690303 0.407263 0.550912</BorderColor>
+         <FillColor>0.898329 0.817472 0.865339</FillColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Yellow Bubble" ID="ED7626E9-AC1E-4151-8033-7146CCC666D7" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.769436 0.762219 0.390143</BorderColor>
+         <FillColor>0.912963 0.894118 0.644541</FillColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Green Bubble" ID="B6E82486-1F32-4052-B2F0-C10CEEEE9E94" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.399100 0.583322 0.354864</BorderColor>
+         <FillColor>0.808835 0.872419 0.801343</FillColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Red Text" ID="A6732BD4-85B1-4668-B471-8FF4D8CB6042" AffectTextColor="Yes" AffectNoteBody="No" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <TextColor>1.0 0.0 0.0</TextColor>
+      </Style>
+      <Style AffectFontStyle="Yes" AffectAlignment="Yes" Name="Title Text" ID="F44A769D-CB03-4130-9AC4-1CEE63A217AF" AffectTextColor="No" AffectNoteBody="No" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <IsBold>Yes</IsBold>
+         <FontSize>12.0</FontSize>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Blue Bubble" ID="D7598D18-A30A-4A1A-BB34-FF1BC5CD4098" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.485893 0.568933 0.756207</BorderColor>
+         <FillColor>0.844068 0.869596 0.923064</FillColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Brown Bubble" ID="11E3034F-99FC-4169-A641-54DFA13432EA" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.269490 0.164034 0.186694</BorderColor>
+         <FillColor>0.934157 0.888319 0.785290</FillColor>
+      </Style>
+   </NoteStyles>
+   <UISettings>
+      <BackgroundColor>1.0 0.988006 0.945006</BackgroundColor>
+      <DefaultFont>Helvetica</DefaultFont>
+      <DefaultTextColor>0.0 0.0 0.0</DefaultTextColor>
+   </UISettings>
+   <PrintSettings VerticalPagination="Auto" HorizontalPagination="Clip" Orientation="Portrait" RightMargin="12.000000" BottomMargin="12.000000" HorizontallyCentered="Yes" ScaleFactor="1.000000" PagesAcross="1" PaperType="na-letter" PagesDown="1" TopMargin="12.000000" Collates="Yes" PaperSize="-1.000000,-1.000000" LeftMargin="12.000000" VerticallyCentered="Yes"/>
+</ScappleDocument>

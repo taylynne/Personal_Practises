@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<ScappleDocument ID="A5B628E3-93EB-4247-B592-0E5B0533C701" Version="1.1">
+   <Notes>
+      <Note Width="156.25" FontSize="12" ID="0" Position="100.0,84.4">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>List of numbers — determine which is different</String>
+         <ConnectedNoteIDs>1</ConnectedNoteIDs>
+      </Note>
+      <Note Width="156.25" FontSize="12" ID="1" Position="274.2,77.3">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>it is by even or odd ;
+so, should be a way to test if each number is odd or even… and whichever is ‘solo’ is the number</String>
+         <ConnectedNoteIDs>0, 2</ConnectedNoteIDs>
+      </Note>
+      <Note Width="156.25" FontSize="12" ID="2" Position="83.6,175.0">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>The way I would maybe do it isn’t necessarily the prettiest nor the most efficient..</String>
+         <ConnectedNoteIDs>1, 3</ConnectedNoteIDs>
+      </Note>
+      <Note Width="156.25" FontSize="12" ID="3" Position="283.6,189.8">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>take a list in a for x in y;
+if x % 2 == 0
+append to even list
+else append to odd list
+
+check the length of each list and shortest is the oddball number</String>
+         <ConnectedNoteIDs>2</ConnectedNoteIDs>
+      </Note>
+      <Note Width="156.25" FontSize="12" ID="4" Position="482.0,238.3">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>okay so issue…
+The numbers are in a string. So I have to separate each number and set it to an int</String>
+      </Note>
+   </Notes>
+   <BackgroundShapes/>
+   <NoteStyles>
+      <Style AffectFontStyle="Yes" AffectAlignment="Yes" Name="Title Text" ID="966B7AED-61E0-4274-BAD2-1047FC0C781A" AffectTextColor="No" AffectNoteBody="No" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <IsBold>Yes</IsBold>
+         <FontSize>12.0</FontSize>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Pink Bubble" ID="186F837B-D200-4FB4-9BA4-BF0E668F10CA" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.690303 0.407263 0.550912</BorderColor>
+         <FillColor>0.898329 0.817472 0.865339</FillColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Red Text" ID="77EEEE53-7C1D-4572-935C-419F1B7AB8BA" AffectTextColor="Yes" AffectNoteBody="No" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <TextColor>1.0 0.0 0.0</TextColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Blue Bubble" ID="3DAE4C8B-75EA-476A-82D4-3BEAC7B5E12F" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.485893 0.568933 0.756207</BorderColor>
+         <FillColor>0.844068 0.869596 0.923064</FillColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Green Bubble" ID="0CA6A640-D526-477C-BBE7-F22F6FA4758E" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.399100 0.583322 0.354864</BorderColor>
+         <FillColor>0.808835 0.872419 0.801343</FillColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Yellow Bubble" ID="01678026-AD32-4DDE-9EE1-A4FBEFDB9602" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.769436 0.762219 0.390143</BorderColor>
+         <FillColor>0.912963 0.894118 0.644541</FillColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Brown Bubble" ID="6C58C7E8-CB62-400F-AB46-2FA8CC684EA0" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.269490 0.164034 0.186694</BorderColor>
+         <FillColor>0.934157 0.888319 0.785290</FillColor>
+      </Style>
+   </NoteStyles>
+   <UISettings>
+      <BackgroundColor>1.0 0.988006 0.945006</BackgroundColor>
+      <DefaultFont>Helvetica</DefaultFont>
+      <DefaultTextColor>0.0 0.0 0.0</DefaultTextColor>
+   </UISettings>
+   <PrintSettings VerticalPagination="Auto" HorizontalPagination="Clip" Orientation="Portrait" RightMargin="12.000000" BottomMargin="12.000000" HorizontallyCentered="Yes" ScaleFactor="1.000000" PagesAcross="1" PaperType="na-letter" PagesDown="1" TopMargin="12.000000" Collates="Yes" PaperSize="-1.000000,-1.000000" LeftMargin="12.000000" VerticallyCentered="Yes"/>
+</ScappleDocument>
